@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+.navBar{
+  background-color: rgb(161, 38, 38);
+  color: white;
+  height: 100px;
+  display: flex;
+  place-items: center;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.newButton{
+  background-color: white;
+  color: black;
+  height: 80px;
+  width: 80px;
+  border: 1px solid red;
+  border-radius: 40px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  text-decoration: none;
+  display: flex;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.newButton:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.createDiary{
+  width: auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.newDiary h2{
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.newDiary{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#date{
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
+
+}
+.addBtn{
+  /* margin-top: 10px; */
+  color: black;
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
+  border: 1px solid rgb(161, 38, 38);
+  border-radius: 10px;
+}
+.diary{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#navLink{
+  text-decoration: none;
+  color:rgb(161, 38, 38)
+}
+#navLink h2{
+  margin: 10px 0;
+  padding: 10px 50px;
+  border-radius: 8px;
+}
+#navLink h2:hover{
+  background-color: rgb(85, 45, 45);
+  color: antiquewhite;
+}
+.singleDay{
+  display: grid;
+  justify-content: center;
+  margin: 50px 100px;
+
+}
+.singleDay h2{
+  color: rgb(161, 38, 38);
+}
+.backbtn{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(161, 38, 38);
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin:20px 0;
+
+}
+.backbtn:hover{
+  cursor: pointer;
+}
+
+#deleteBtn{
+  width: 120px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin:20px 0;
+}
+#deleteBtn:hover{
+  cursor:pointer
+}
+.bodyDiv{
+  min-height: 100px;
+  width: 100;
+}
+.notFound{
+  margin-left: 50px;
+  color: red;
+}
